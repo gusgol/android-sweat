@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Sweat" parent="Sweat.Base"></style>
+
+    <style name="Sweat.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Sweat.White" parent="Sweat">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+</resources>
